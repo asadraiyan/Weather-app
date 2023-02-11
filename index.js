@@ -11,7 +11,6 @@ const getWeather = async (city) => {
 };
 
 const showWeather = (data) => {
-  console.log("data =", data)
   if (data.cod == "404") {
     weather.innerHTML = `<h2> City Not Found <h2>`;
     return;
@@ -28,8 +27,6 @@ const showWeather = (data) => {
 };
 
 form.addEventListener("submit", function (event) {
-  console.log("event =", event)
-  console.log("search =", search)
   getWeather(search.value);
   event.preventDefault();
 });
