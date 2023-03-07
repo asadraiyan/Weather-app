@@ -53,20 +53,16 @@ h1 {
     font-size: 1.5rem;
   }
 
-  main {
-    height: 75vh;
-  }
-
   #search {
     font-size: 1rem;
   }
 
   img {
-    height: 124px;
-    width: 84px;
+    height: 125px;
+    width: 80px;
   }
 
   .tempInfo {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
